@@ -1,0 +1,68 @@
+<!--HTML-Registro Alumno-->
+<!DOCTYPE html>
+<!-- Esta línea sirve para avisarle al navegador que ejecute HTML5(HTML5 es algo actual, sin esta línea los navegadoers ejecutarían un protocolo antiguo.)-->
+<html lang="es">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="templates/style/style.css">
+        <link rel="icon" href="Imagenes/PL.ico">
+        <title>Registro alumno</title>
+</head>
+
+<body>
+        <header>
+                <a href="index.html">
+                        <h1 id="portalList">Portal List</h1>
+                </a>
+                <a href="index.html"><img id= "plImg" src="Imagenes/PL.png" alt="Portal List"></a>
+        </header>
+        <main>
+                        <h2 id="registrarAlumnoTitle">Registrar Alumno</h2>
+                        <form action="" method="POST">
+                                <!--Action tiene que guardar los datos en la base de datos-->
+                                <label>Nombre</label>
+                                <input id="nombreRegistroAlumno" type="text" name="cajaNombre" required pattern="[A-Za-z]{1,50}"> <br><br>
+
+                                <label>Apellido</label>
+                                <input id="apellidoRegistroAlumno"type="text" name="cajaApellido" required pattern="[A-Za-z]{1,50}"><br><br>
+
+                                <plabel>Cédula</label>
+                                        <input id="ciRegistroAlumno"type="number" name="cajaCedula" required><br><br>
+
+                                        <label>Número del padre</label>
+                                        <input id="nPadre"type="number" name="cajaN_Padre" required><br><br>
+
+                                        <label>Foto</label>
+                                        <input id="fotoAlumno"type="file" name="cajaFoto" required><br><br>
+
+                                        <label>Grupo</label>
+                                        <select>
+                                                <option>3BK</option>
+                                        </select><br><br>
+
+                                        <label>Email</label>
+                                        <input id="emailRegistroAlumno" type="email" name="cajaEmail" pattern required><br><br>
+
+                                        <label>Usuario(CI)</label>
+                                        <input id="usuarioRegistroAlumno"type="text" name="cajaUsuario" required><br><br>
+
+                                        <label>Contraseña(CI)</label>
+                                        <input id="contraRegistroAlumno" type="password" name="cajaContraseña" required><br><br>
+                                        <!--Cambiar type="text"-->
+                                        <button id="btnRegistroAlumno" type="sumbit">Registrar Alumno</button>
+                        </form>
+        </main>
+        <footer>
+                <p id="contactUs"> <a href="contactUs.html">Contáctanos</a></p>
+                <p id="copyR">© 2022 Portal List, Inc.</p>
+        </footer>
+</body>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="templates/script/script.js"></script>
+</html>
