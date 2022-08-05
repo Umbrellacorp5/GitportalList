@@ -1,46 +1,169 @@
-<!--HTML-Inicio Profesor-->
 <!DOCTYPE html>
-<!-- Esta línea sirve para avisarle al navegador que ejecute HTML5(HTML5 es algo actual, sin esta línea los navegadoers ejecutarían un protocolo antiguo.)-->
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="templates/style/style.css">
-    <link rel="icon" href="Imagenes/PL.ico">
-    <title>Inicio de sesión de profesor</title>
+  <meta charset="UTF-8">
+  <title>CodePen - Flat Login Form</title>
+  <link rel="stylesheet" media="screen" href="https://cpwebassets.codepen.io/assets/fullpage/fullpage-1580f96ce81ff0a427cf57dda2748ce646c38efc201ae5942a29958cffa6856d.css" />
 </head>
 
 <body>
-    <header>
-        <a href="index.html">
-            <h1 id="portalList">Portal List</h1>
-        </a>
-        <a href="index.html"><img id= "plImg" src="Imagenes/PL.png" alt="Portal List"></a>
-    </header>
-    <main>
+    <iframe
+      id="result"
+      srcdoc="
+<!DOCTYPE html>
+<html lang=&quot;es&quot; >
 
-        <h2 id="inicioSesionProfesorTitle">Inicio de sesión de profesor</h2>
-        <form action="" method="POST">
-            <!--Action tiene que comparar los datos ingresados y si son correctos redirigir-->
-            <label>Usuario</label>
-            <input id="usuarioProfesor" type="text" name="cajaUsuario" required><br><br>
-            <label>Contraseña</label>
-            <input id="contraProfesor"type="password" name="cajaContraseña" required><br><br>
-            <button id="btnInicioSesionProfesor" type="sumbit">Iniciar sesión</button>
-        </form>
+<head>
 
-    </main>
+  <meta charset=&quot;UTF-8&quot;>
+  
+<style>
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 300px;
+  margin: 0 auto 100px;
+  padding: 30px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  text-align: center;
+}
+.form .thumbnail  {
 
-    <footer>
-        <p id="contactUs"> <a href="contactUs.html">Contáctanos</a></p>
-        <p id="copyR">© 2022 Portal List, Inc.</p>
-    </footer>
+  background: #e3e3e3;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto -130px;
+  padding: 50px 30px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+.imagen {
+  position: relative;
+  top: -23px;
+  left: 65px;
+  height: 170px;
+  width: 170px;
+
+
+}
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  outline: 0;
+  background: #2ECCFA;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #FFFFFF;
+  font-size: 14px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+
+.form .register-form {
+  display: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: &quot;&quot;;
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none; 
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+body {
+  background: #ccc;
+  font-family: &quot;Roboto&quot;, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body:before {
+  content: &quot;&quot;;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+</style>
+
+</head>
+
+<body>
+  <div class=&quot;container&quot;>
+  <div class=&quot;info&quot;>
+    <h1>Iniciar Sesión Profesor</h1><span><a href=&quot;index.html&quot;>Portal List</a></span>
+  </div>
+</div>
+<div class=&quot;form&quot;>
+  <div class=&quot;thumbnail&quot;></div>
+  <div class=&quot;imagen&quot;><img src=&quot;Imagenes/PL.png&quot;/></div>
+  <form class=&quot;login-form&quot;>
+    <input type=&quot;text&quot; placeholder=&quot;Usuario&quot;/>
+    <input type=&quot;password&quot; placeholder=&quot;Contraseña&quot;/>
+    <button>Login</button>
+  </form>
+</div>
 </body>
-<!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-<script src="templates/script/script.js"></script>
+</html>"
+
+</body>
 </html>
