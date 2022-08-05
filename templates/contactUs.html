@@ -1,15 +1,13 @@
-<!--HTML-Administración-->
 <!DOCTYPE html>
-<!-- Esta línea sirve para avisarle al navegador que ejecute HTML5(HTML5 es algo actual, sin esta línea los navegadoers ejecutarían un protocolo antiguo.)-->
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="templates/style/style.css">
+    <link rel="stylesheet" href="static_in_env/css/style.css">
     <link rel="icon" href="Imagenes/PL.ico">
-    <title>Administracion</title>
+    <title>Contáctanos</title>
 </head>
 
 <body>
@@ -20,15 +18,31 @@
         <a href="index.html"><img id= "plImg" src="Imagenes/PL.png" alt="Portal List"></a>
     </header>
     <main>
-        <form action="registroAlumno.html">
-            <button id="btnCrearAlumno"type="sumbit">Crear Alumno</button>
-        </form>
-        <form action="registroProfesor.html">
-            <button id="btnCrearProfesor"type="sumbit">Crear Profesor</button>
-        </form>
-        <form action="registros.html">
-            <button id="btnVerRegistros" type="sumbit">Ver Registros</button>
-        </form>
+        <div class="container">
+            <form action="" method="post">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="uruguay">Uruguay</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
     </main>
     <footer>
         <p id="contactUs"> <a href="contactUs.html">Contáctanos</a></p>
