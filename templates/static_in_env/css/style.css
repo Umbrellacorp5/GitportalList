@@ -52,7 +52,7 @@ input[type=text], select, textarea {
 }
 #formIP #thumbnailIP  {
 
-  background: hsl(0, 0%, 89%);
+  background: rgb(242, 242, 242);
   width: 150px;
   height: 150px;
   margin: 0 auto -130px;
@@ -132,9 +132,6 @@ input[type=text], select, textarea {
 #containerIP #infoIP span a {
   color: #000000;
   text-decoration: none; 
-}
-#containerIP #infoIP span .fa {
-  color: #EF3B3A;
 }
 
 #bodyIP {
