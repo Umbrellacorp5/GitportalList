@@ -22,28 +22,28 @@
   --color-background: #bed1e6;
 }
 
-.body {
+#seleccionarRegistroBody {
   background-color: var(--color-background);
   font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
   display: grid;
 }
 
-.header {
+#seleccionarRegistroHeader {
   width: auto;
   text-align: center;
   padding: 15px;
 }
-.header .container #navbarNavDropdown {
+#seleccionarRegistroHeader .container #navbarNavDropdown {
   text-align: right;
 }
-.header .container .row .col-6 a {
+#seleccionarRegistroHeader .container .row .col-6 a {
   text-decoration: none;
 }
-.header .container .row .col-6 a .title {
+#seleccionarRegistroHeader .container .row .col-6 a .title {
   text-align: center;
 }
-.header .container .row .col-6 .img {
+#seleccionarRegistroHeader .container .row .col-6 .img {
   height: auto;
   border: 1px solid #fd7e14;
   border-radius: 25%;
@@ -52,15 +52,15 @@
   text-align: left;
 }
 
-.main {
+#seleccionarRegistroMain {
   padding: 30px;
   padding-top: 10px;
 }
-.main .container-flex .row .col-6 .form .btn btn-primary {
+#seleccionarRegistroMain .container-flex .row .col-6 .form .btn btn-primary {
   padding-top: 10px;
 }
 
-.footer {
+#seleccionarRegistroFooter {
   text-align: left;
   position: fixed;
   left: 0;
