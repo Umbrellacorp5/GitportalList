@@ -50,9 +50,9 @@ input[type=text], select, textarea {
   border-bottom-right-radius: 3px;
   text-align: center;
 }
-#formIP .thumbnailIP  {
+#formIP #thumbnailIP  {
 
-  background: #e3e3e3;
+  background: hsl(0, 0%, 89%);
   width: 150px;
   height: 150px;
   margin: 0 auto -130px;
