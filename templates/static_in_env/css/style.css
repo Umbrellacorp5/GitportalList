@@ -132,8 +132,12 @@
 }
 
 /*-------------------------------------------------------------Ingresar Profesor------------------------------------------------------------------*/
+
 /*
  #formIP {
+=======
+#formIP {
+>>>>>>> 2bf4795898dd70e71926023f3f2ad27ab414a3d2
   position: relative;
   z-index: 1;
   background: #FFFFFF;
@@ -146,7 +150,9 @@
   border-bottom-right-radius: 3px;
   text-align: center;
 }
+
 */
+
 #formIP #thumbnailIP {
   background: rgb(242, 242, 242);
   width: 150px;
@@ -239,6 +245,7 @@
   font-family: Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 /*-------------------------------------------------------------Registrar Profesor------------------------------------------------------------------*/
@@ -282,4 +289,5 @@
   font-family: Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }/*# sourceMappingURL=style.css.map */
