@@ -23,34 +23,24 @@
                         <h2 id="registrarAlumnoTitle">Registrar Alumno</h2>
                         <form action="" method="POST">
                                 <!--Action tiene que guardar los datos en la base de datos-->
-                                <label>Nombre</label>
-                                <input id="nombreRegistroAlumno" type="text" name="cajaNombre" required pattern="[A-Za-z]{1,50}"> <br><br>
-
-                                <label>Apellido</label>
-                                <input id="apellidoRegistroAlumno"type="text" name="cajaApellido" required pattern="[A-Za-z]{1,50}"><br><br>
-
-                                <plabel>Cédula</label>
-                                        <input id="ciRegistroAlumno"type="number" name="cajaCedula" required><br><br>
-
-                                        <label>Número del padre</label>
-                                        <input id="nPadre"type="number" name="cajaN_Padre" required><br><br>
-
-                                        <label>Foto</label>
-                                        <input id="fotoAlumno"type="file" name="cajaFoto" required><br><br>
+                               
+                                        <input id="nombreRegistroAlumno" type="text" placeholder="Nombre" required pattern="[A-Za-z]{1,50}"> <br><br>
+                                        <input id="apellidoRegistroAlumno"type="text" placeholder="Apellido" required pattern="[A-Za-z]{1,50}"><br><br>
+                                        <input id="ciRegistroAlumno"type="number" placeholder="Cédula" required><br><br>                                    
+                                        <input id="nPadre"type="number" placeholder="Número del padre" required><br><br>
+                                        <input id="fotoAlumno"type="file" placeholder="Foto" required><br><br>
 
                                         <label>Grupo</label>
                                         <select>
                                                 <option>3BK</option>
                                         </select><br><br>
 
-                                        <label>Email</label>
-                                        <input id="emailRegistroAlumno" type="email" name="cajaEmail" pattern required><br><br>
+                                        
+                                        <input id="emailRegistroAlumno" type="email" placeholder="Email" pattern required><br><br>                                     
+                                        <input id="usuarioRegistroAlumno"type="text" placeholder="Usuario (CI)" required><br><br>
 
-                                        <label>Usuario(CI)</label>
-                                        <input id="usuarioRegistroAlumno"type="text" name="cajaUsuario" required><br><br>
 
-                                        <label>Contraseña(CI)</label>
-                                        <input id="contraRegistroAlumno" type="password" name="cajaContraseña" required><br><br>
+                                        <input id="contraRegistroAlumno" type="password" placeholder="Contraseña (CI)" required><br><br>
                                         <!--Cambiar type="text"-->
                                         <button id="btnRegistroAlumno" type="sumbit">Registrar Alumno</button>
                         </form>

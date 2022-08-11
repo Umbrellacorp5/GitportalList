@@ -132,8 +132,7 @@
 }
 
 /*-------------------------------------------------------------Ingresar Profesor------------------------------------------------------------------*/
-/*
- #formIP {
+#formIP {
   position: relative;
   z-index: 1;
   background: #FFFFFF;
@@ -146,7 +145,7 @@
   border-bottom-right-radius: 3px;
   text-align: center;
 }
-*/
+
 #formIP #thumbnailIP {
   background: rgb(242, 242, 242);
   width: 150px;
