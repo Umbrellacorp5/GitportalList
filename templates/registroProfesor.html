@@ -22,12 +22,12 @@
     <main>
 
             <h2 id="registrarProfesorTitle">Registrar Profesor</h2>
-            <form action="" method="POST" id="formIP">
+            <form class="form" action="" method="POST" id="formIP">
                 <!--Action tiene que guardar los datos en la base de datos-->
                
-                <input class="input" id="nombreRegistroProfesor" type="text" placeholder="Nombre" required pattern="[A-Za-z]{1,50}"> <br><br>
-                <input class="input" id="apellidoRegistroProfesor" type="text" placeholder="Apellido" required pattern="[A-Za-z]{1,50}"><br><br>
-                <input class="input" id="ciRegistroProfesor" type="number" placeholder="Cédula" required><br><br>
+                <input class="input" id="nombreRegistroProfesor" type="text" placeholder="Nombre" required pattern="[A-Za-z]{1,50}"> 
+                <input class="input" id="apellidoRegistroProfesor" type="text" placeholder="Apellido" required pattern="[A-Za-z]{1,50}">
+                <input class="input" id="ciRegistroProfesor" type="text" placeholder="Cédula" required>
 
                 <label>Materias</label>
                 <select name="Seleccionar una materia">
@@ -63,8 +63,8 @@
 
                 
                 <input class="input" id="emailRegistroProfesor" type="email" placeholder="Email" required pattern><br><br>
-                <input class="input" id="usuarioRegistroProfesor" type="text" placeholder="Usuario(CI)" required><br><br>
-                <input class="input" id="contraRegistroProfesor" type="password" placeholder="Contraseña(CI)" required><br><br>
+                <input class="input" id="usuarioRegistroProfesor" type="text" placeholder="Usuario (CI)" required><br><br>
+                <input class="input" id="contraRegistroProfesor" type="password" placeholder="Contraseña (CI)" required><br><br>
                 <!--Cambiar type="text"-->
 
                 <button id="btnRegistroProfesor" type="sumbit">Registrar Profesor</button>
