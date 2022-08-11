@@ -1,11 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-}
 
 :root {
+  /*Variables de colores*/
   --color-primary: orange;
   /*cambiara hexa*/
   --color-secondary: skyblue;
@@ -29,6 +24,7 @@
   font-size: 1.1rem;
   display: grid;
 }
+
 
 #seleccionarRegistroHeader {
   width: auto;
