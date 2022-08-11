@@ -12,7 +12,7 @@
     <title>Registro profesor</title>
 </head>
 
-<body>
+<body id="bodyI/">
     <header>
         <a href="index.html">
             <h1 id="portalList">Portal List</h1>
@@ -24,18 +24,34 @@
             <h2 id="registrarProfesorTitle">Registrar Profesor</h2>
             <form action="" method="POST">
                 <!--Action tiene que guardar los datos en la base de datos-->
-                <label>Nombre</label>
-                <input id="nombreRegistroProfesor" type="text" name="cajaNombre" required pattern="[A-Za-z]{1,50}"> <br><br>
-
-                <label>Apellido</label>
-                <input id="apellidoRegistroProfesor" type="text" name="cajaApellido" required pattern="[A-Za-z]{1,50}"><br><br>
-
-                <label>Cédula</label>
-                <input id="ciRegistroProfesor" type="number" name="cajaCedula" required><br><br>
+               
+                <input id="nombreRegistroProfesor" type="text" placeholder="Nombre" required pattern="[A-Za-z]{1,50}"> <br><br>
+                <input id="apellidoRegistroProfesor" type="text" placeholder="Apellido" required pattern="[A-Za-z]{1,50}"><br><br>
+                <input id="ciRegistroProfesor" type="number" placeholder="Cédula" required><br><br>
 
                 <label>Materias</label>
                 <select>
                     <option>Matemáticas</option>
+                    <option>Sistemas Operativos I</option>
+                    <option>Sistemas Operativos II</option>
+                    <option>Sistemas Operativos III</option>
+                    <option>A.D.A</option>
+                    <option>Gestión de Proyecto</option>
+                    <option>Formación Empresarial</option>
+                    <option>Filosofía</option>
+                    <option>Sociología</option>
+                    <option>Inglés</option>
+                    <option>Base de Datos I</option>
+                    <option>Base de Datos II</option>
+                    <option>Programación I</option>
+                    <option>Programación II</option>
+                    <option>Programación III</option>
+                    <option>Redes datos y seguridad</option>
+                    <option>Economía</option>
+                    <option>A.P.T</option>
+                    <option>Laboratorio Equipos Informatico</option>
+                    <option>Geometría</option>
+                    <option>Diseño Web</option>
                     <!--tener la opción de seleccionar más de una opción-->
                 </select><br><br>
 
@@ -45,14 +61,10 @@
                     <!--tener la opción de seleccionar más de una opción-->
                 </select><br><br>
 
-                <label>Email</label>
-                <input id="emailRegistroProfesor" type="email" name="cajaEmail" required pattern><br><br>
-
-                <label>Usuario(CI)</label>
-                <input id="usuarioRegistroProfesor" type="text" name="cajaUsuario" required><br><br>
-
-                <label>Contraseña(CI)</label>
-                <input id="contraRegistroProfesor" type="password" name="cajaContraseña" required><br><br>
+                
+                <input id="emailRegistroProfesor" type="email" placeholder="Email" required pattern><br><br>
+                <input id="usuarioRegistroProfesor" type="text" placeholder="Usuario(CI)" required><br><br>
+                <input id="contraRegistroProfesor" type="password" placeholder="Contraseña(CI)" required><br><br>
                 <!--Cambiar type="text"-->
 
                 <button id="btnRegistroProfesor" type="sumbit">Registrar Profesor</button>
