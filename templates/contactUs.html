@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="templates/style/style.css">
+    <link rel="stylesheet" href="static_in_env/css/style.css">
     <link rel="icon" href="Imagenes/PL.ico">
-    <title>Elegir Usuario</title>
+    <title>Contáctanos</title>
 </head>
 
 <body>
@@ -18,13 +18,31 @@
         <a href="index.html"><img id= "plImg" src="Imagenes/PL.png" alt="Portal List"></a>
     </header>
     <main>
-        <h1 id="elegirUsuarioTitle">Elegir Usuario</h1>
-        <form action="ingresarAlumno.html">
-            <button id="btnElegirAlumno"type="sumbit">Alumno</button>
-        </form>
-        <form action="ingresarProfesor.html">
-            <button id="btnElegirProfesor" type="sumbit">Profesor</button>
-        </form>
+        <div class="container">
+            <form action="" method="post">
+
+                <label for="fname">Nombre</label>
+                <input type="text" id="fname" name="firstname" placeholder="Tu nombre">
+
+                <label for="lname">Apellido</label>
+                <input type="text" id="lname" name="lastname" placeholder="Tu apellido.">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Tu email">
+
+                <label for="Ciudad">Ciudad</label>
+                <select id="country" name="country">
+                    <option value="paysandu">Paysandú</option>
+                    <option value="salto">Salto</option>
+                    <option value="montevideo">Montevideo</option>
+                </select>
+
+                <label for="subject">Tema</label>
+                <textarea id="subject" name="subject" placeholder="Coméntanos" style="height:200px"></textarea>
+                <input type="submit" value="Ingresar">
+
+            </form>
+        </div>
     </main>
     <footer>
         <p id="contactUs"> <a href="contactUs.html">Contáctanos</a></p>
