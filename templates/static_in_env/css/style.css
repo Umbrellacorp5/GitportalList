@@ -49,6 +49,7 @@
 #seleccionarRegistroMain {
   padding: 30px;
   padding-top: 10px;
+  background-color: #000;
 }
 #seleccionarRegistroMain .container-flex .row .col-6 .form .btn btn-primary {
   padding-top: 10px;
@@ -62,6 +63,7 @@
   width: 100%;
 }
 
+/* lol */
 /*
 input[type=text], select, textarea {
     width: 100%; 
