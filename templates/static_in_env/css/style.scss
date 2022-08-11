@@ -94,6 +94,110 @@
   width: 100%;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+html{
+  background-color: #bed1e6;
+}
+#plImg{
+ position: absolute;
+ left: 700px;
+ top: 200px;
+}
+
+footer{
+margin-bottom:200px;
+position: absolute;
+left: 65px;
+top: 983.219px;
+}
+
+body{
+  background-color: #bed1e6;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+}
+header{
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items:center; 
+  background-color: #fd7e14;
+  height: 80px;
+  display: flex;
+}
+#elegirUsuarioTitle{
+  margin: 0;
+  padding: 20px 0;
+  color:skyblue;
+  font-size: 130px;
+  font-weight: 500;
+}
+main{
+  text-align:center;
+  background-color: #bed1e6;
+}
+
+#btnElegirAlumno{
+  text-align: center;
+  display: inline-block;
+  text-decoration:none ;
+  color: white;
+  background-color: #fd7e14;
+  border: 12px;
+  padding: 12px 34px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  width: 200px;
+  height: 70px;
+  border-radius: 4px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  right: 100px;
+  top: 470px;
+}
+.button:hover btnElegirAlumno {
+  background-color:#378dfc;  
+  color: white;
+}
+
+#btnElegirProfesor{
+  text-align: center;
+  display: inline-block;
+  text-decoration:none ;
+  color: white;
+  background-color:#378dfc;
+  border: 12px;
+  padding: 12px 34px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  width: 200px;
+  height: 70px;
+  border-radius: 4px;
+  left: 120px;
+  top: 400px;
+}
+
+#contactUs{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+}
+#portalList{
+  display: inline-block;
+}
+
 
 
 /* lol */
