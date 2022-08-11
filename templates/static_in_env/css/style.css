@@ -63,7 +63,7 @@
   width: 100%;
 }
 
-* {
+/* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -73,13 +73,14 @@
 html {
   background-color: #bed1e6;
 }
-
+*/
 #plImg {
   position: absolute;
   left: 700px;
   top: 200px;
 }
 
+/*
 footer {
   margin-bottom: 200px;
   position: absolute;
@@ -103,7 +104,7 @@ header {
   height: 80px;
   display: flex;
 }
-
+*/
 #elegirUsuarioTitle {
   margin: 0;
   padding: 20px 0;
@@ -112,10 +113,12 @@ header {
   font-weight: 500;
 }
 
+/*
 main {
   text-align: center;
   background-color: #bed1e6;
 }
+*/
 
 #btnElegirAlumno {
   text-align: center;
@@ -170,39 +173,3 @@ main {
 #portalList {
   display: inline-block;
 }
-
-/* lol */
-/*
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-
-
-  input[type=submit] {
-    background-color: #fc8312;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-
-  input[type=submit]:hover {
-    background-color: #42a6d4;
-  }
-
-
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-  *//*# sourceMappingURL=style.css.map */

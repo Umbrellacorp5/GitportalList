@@ -94,44 +94,14 @@
   width: 100%;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family:'Poppins', sans-serif;
-}
 
-html{
-  background-color: #bed1e6;
-}
 #plImg{
  position: absolute;
  left: 700px;
  top: 200px;
 }
 
-footer{
-margin-bottom:200px;
-position: absolute;
-left: 65px;
-top: 983.219px;
-}
 
-body{
-  background-color: #bed1e6;
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
-  text-align: center;
-}
-header{
-  top: 0;
-  left: 0;
-  width: 100%;
-  align-items:center; 
-  background-color: #fd7e14;
-  height: 80px;
-  display: flex;
-}
 #elegirUsuarioTitle{
   margin: 0;
   padding: 20px 0;
@@ -139,10 +109,7 @@ header{
   font-size: 130px;
   font-weight: 500;
 }
-main{
-  text-align:center;
-  background-color: #bed1e6;
-}
+
 
 #btnElegirAlumno{
   text-align: center;
@@ -198,67 +165,108 @@ main{
   display: inline-block;
 }
 
+ /*-------------------------------------------------------------Ingresar Profesor------------------------------------------------------------------*/
+
+ #formIP {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 300px;
+  margin: 0 auto 100px;
+  padding: 30px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  text-align: center;
+}
+#formIP #thumbnailIP  {
+
+  background: rgb(242, 242, 242);
+  width: 150px;
+  height: 150px;
+  margin: 0 auto -130px;
+  padding: 50px 30px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  box-sizing: border-box;
+}
+#imgIP {
+    max-width: 100%;
+    max-height: 100%;
+   }
+#imagenIP {
+  position: relative;
+  top: -23px;
+  left: 65px;
+  height: 170px;
+  width: 170px;
 
 
-/* lol */
+}
+#formIP #inputIP {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+#formIP #buttonIP {
+  outline: 0;
+  background: #2ECCFA;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #FFFFFF;
+  font-size: 14px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
 
 
+#containerIP {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
 
+#containerIP #infoIP {
+  margin: 50px auto;
+  text-align: center;
+}
+#containerIP #infoIP #h1IP {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+#containerIP #infoIP #spanIP {
+  color: #ff0202;
+  font-size: 12px;
+}
+#containerIP #infoIP #spanIP #aIP {
+  color: #000000;
+  text-decoration: none; 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
-
-  input[type=submit] {
-    background-color: #fc8312;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-
-  input[type=submit]:hover {
-    background-color: #42a6d4;
-  }
-  
-
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-  */
+#bodyIP {
+  background: rgb(231, 228, 228);
+  font-family: Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
