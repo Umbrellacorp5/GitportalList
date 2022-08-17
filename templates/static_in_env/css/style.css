@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   /*Variables de colores*/
   --color-primary: orange; /*Botones*/
@@ -131,6 +132,7 @@
 }
 
 /*-------------------------------------------------------------Ingresar Profesor------------------------------------------------------------------*/
+/* El formIP(es el formulario de ingresarProfesor.html )*/
 #formIP {
   position: relative;
   z-index: 1;
@@ -145,6 +147,7 @@
   text-align: center;
 }
 
+/*Esto es el circulo en el que se encuentra el logo*/
 #formIP #thumbnailIP {
   background: rgb(242, 242, 242);
   width: 150px;
@@ -158,11 +161,13 @@
   box-sizing: border-box;
 }
 
+/*Esto es para que el logo no se deforme*/
 .img {
   max-width: 100%;
   max-height: 100%;
 }
 
+/*El tamaño y posicionamiento del logo */
 #imagenIP {
   position: relative;
   top: -23px;
@@ -171,6 +176,7 @@
   width: 170px;
 }
 
+/*Le da la forma/color y tamaño a la clase .input*/
 #formIP .input {
   outline: 0;
   background: #f2f2f2;
@@ -186,6 +192,7 @@
   font-size: 14px;
 }
 
+/* Tamaño/forma/color de los botones*/
 #formIP .button {
   outline: 0;
   background: #2ECCFA;
@@ -218,6 +225,7 @@
   cursor: pointer;
 }
 
+/*Contenedor de h1 */
 #containerIP {
   position: relative;
   z-index: 1;
@@ -230,6 +238,7 @@
   text-align: center;
 }
 
+/*Modifica forma/color/tamaño de h1 */
 #containerIP #infoIP #h1IP {
   margin: 0 0 15px;
   padding: 0;
@@ -238,10 +247,12 @@
   color: #1a1a1a;
 }
 
+/*Tamaño a PortalList */
 #containerIP #infoIP #spanIP {
   font-size: 12px;
 }
 
+/*Le saca el color al texto (linkeado) */
 #containerIP #infoIP #spanIP #aIP {
   color: #000000;
   text-decoration: none;
@@ -270,25 +281,6 @@
 }
 
 /*-------------------------------------------------------------Registrar Profesor------------------------------------------------------------------*/
-/*
-#formIP {
-
-  .input {
-    outline: 0;
-    background: #f2f2f2;
-    width: 100%;
-    border: 0;
-    margin: 0 0 15px;
-    padding: 15px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    box-sizing: border-box;
-    font-size: 14px;
-  }
-}
-*/
 .form {
   position: relative;
   z-index: 1;
@@ -301,6 +293,34 @@
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   text-align: center;
+}
+
+#formRP #thumbnailRP {
+  background: rgb(242, 242, 242);
+  width: 150px;
+  height: 150px;
+  margin: 0 auto -150px;
+  padding: 50px 30px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  box-sizing: content-box;
+}
+
+/*Esto es para que el logo no se deforme*/
+.img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*El tamaño y posicionamiento del logo */
+#imagenIP {
+  position: relative;
+  top: -23px;
+  left: 40px;
+  height: 170px;
+  width: 170px;
 }
 
 .input {
@@ -318,6 +338,26 @@
   font-size: 14px;
 }
 
+#containerIP {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#containerIP #infoIP {
+  margin: 50px auto;
+  text-align: center;
+}
+
+#containerIP #infoIP #h1IP {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+
 #bodyI {
   background: rgb(231, 228, 228);
   font-family: Roboto, sans-serif;
@@ -328,6 +368,22 @@
 .form #buttonRP {
   outline: 0;
   background: #2ECCFA;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #FFFFFF;
+  font-size: 14px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form #buttonRP:hover {
+  outline: 0;
+  background: orange;
   width: 100%;
   border: 0;
   padding: 15px;

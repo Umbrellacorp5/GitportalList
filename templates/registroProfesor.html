@@ -13,15 +13,13 @@
 </head>
 
 <body id="bodyI">
-    <header>
-        <a href="index.html">
-            <h1 id="portalList">Portal List</h1>
-        </a>
-        <a href="index.html"><img id= "plImg" src="Imagenes/LogoPL.png" alt="Portal List"></a>
-    </header>
+   
     <main>
 
-            <h2 id="registrarProfesorTitle">Registrar Profesor</h2>
+            <h1 id="registrarProfesorTitle">Registrar Profesor</h1>
+            <div id="formRP">
+                <div id="thumbnailRP"></div>
+                <div id="imagenRP"><img class ="img" id="imgRP" src="static_in_env/img/LogoPL.png"/></div>  
             <form class="form" action="" method="POST" id="formIP">
                 <!--Action tiene que guardar los datos en la base de datos-->
                
@@ -62,9 +60,9 @@
                 </select><br><br>
 
                 
-                <input class="input" id="emailRegistroProfesor" type="email" placeholder="Email" required pattern><br><br>
-                <input class="input" id="usuarioRegistroProfesor" type="text" placeholder="Usuario (CI)" required><br><br>
-                <input class="input" id="contraRegistroProfesor" type="password" placeholder="Contraseña (CI)" required><br><br>
+                <input class="input" id="emailRegistroProfesor" type="email" placeholder="Email" required pattern>  
+                <input class="input" id="usuarioRegistroProfesor" type="text" placeholder="Usuario (CI)" required>
+                <input class="input" id="contraRegistroProfesor" type="password" placeholder="Contraseña (CI)" required>
                 <!--Cambiar type="text"-->
 
 
