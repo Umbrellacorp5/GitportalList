@@ -136,7 +136,7 @@
 #formIP {
   position: relative;
   z-index: 1;
-  background: #FFFFFF;
+  background: #d3d3d3;
   max-width: 300px;
   margin: 0 auto 100px;
   padding: 30px;
@@ -150,7 +150,7 @@
 #formIA {
   position: relative;
   z-index: 1;
-  background: #FFFFFF;
+  background: #d3d3d3;
   max-width: 300px;
   margin: 0 auto 100px;
   padding: 30px;
@@ -211,7 +211,7 @@
 
 /*Modifica forma/color/tamaño de h1 */
 #containerIP #infoIP #h1IP {
-  margin: 0 0 15px;
+  margin: auto;
   padding: 0;
   font-size: 36px;
   font-weight: 300;
@@ -219,7 +219,7 @@
 }
 
 #containerIA #infoIA #h1IA {
-  margin: 0 0 15px;
+  margin: auto;
   padding: 0;
   font-size: 36px;
   font-weight: 300;
@@ -248,7 +248,7 @@
 
 
 #contactUsIP {
-  margin: 0 0 0px;
+  margin-bottom: 0px;
   font-size: 18px;
   text-align: center;
 }
@@ -266,7 +266,7 @@
 
 .copyR {
   text-align: center;
-  margin-bottom: -100px;
+  margin-bottom: 10px;
 }
 
 #inputUsuarioIP{
