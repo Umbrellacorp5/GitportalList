@@ -147,18 +147,18 @@
   text-align: center;
 }
 
-/*Esto es el circulo en el que se encuentra el logo*/
-#formIP #thumbnailIP {
-  background: rgb(242, 242, 242);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto -130px;
-  padding: 50px 30px;
-  border-top-left-radius: 100%;
-  border-top-right-radius: 100%;
-  border-bottom-left-radius: 100%;
-  border-bottom-right-radius: 100%;
-  box-sizing: border-box;
+#formIA {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 300px;
+  margin: 0 auto 100px;
+  padding: 30px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  text-align: center;
 }
 
 /*Esto es para que el logo no se deforme*/
@@ -168,61 +168,20 @@
 }
 
 /*El tamaño y posicionamiento del logo */
-#imagenIP {
+#imgIP {
   position: relative;
   top: -23px;
-  left: 40px;
-  height: 170px;
-  width: 170px;
+  left: 0px;
+  height: 250px;
+  width: 250px;
 }
 
-/*Le da la forma/color y tamaño a la clase .input*/
-#formIP .input {
-  outline: 0;
-  background: #f2f2f2;
-  width: 100%;
-  border: 0;
-  margin: 0 0 15px;
-  padding: 15px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  box-sizing: border-box;
-  font-size: 14px;
-}
-
-/* Tamaño/forma/color de los botones*/
-#formIP .button {
-  outline: 0;
-  background: #2ECCFA;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  color: #FFFFFF;
-  font-size: 14px;
-  transition: all 0.3 ease;
-  cursor: pointer;
-}
-
-#formIP .button:hover {
-  outline: 0;
-  background: orange;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  color: #FFFFFF;
-  font-size: 14px;
-  transition: all 0.3 ease;
-  cursor: pointer;
+#imgIA {
+  position: relative;
+  top: -23px;
+  left: 0px;
+  height: 250px;
+  width: 250px;
 }
 
 /*Contenedor de h1 */
@@ -233,7 +192,19 @@
   margin: 0 auto;
 }
 
+#containerIA {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
 #containerIP #infoIP {
+  margin: 50px auto;
+  text-align: center;
+}
+
+#containerIA #infoIA {
   margin: 50px auto;
   text-align: center;
 }
@@ -247,8 +218,20 @@
   color: #1a1a1a;
 }
 
+#containerIA #infoIA #h1IA {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+
 /*Tamaño a PortalList */
 #containerIP #infoIP #spanIP {
+  font-size: 12px;
+}
+
+#containerIA #infoIA #spanIA {
   font-size: 12px;
 }
 
@@ -258,14 +241,19 @@
   text-decoration: none;
 }
 
-#bodyIP {
-  background: rgb(231, 228, 228);
-  font-family: Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#containerIA #infoIA #spanIA #aIA {
+  color: #000000;
+  text-decoration: none;
 }
 
+
 #contactUsIP {
+  margin: 0 0 0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#contactUsIA {
   margin: 0 0 0px;
   font-size: 18px;
   text-align: center;
@@ -278,8 +266,24 @@
 
 .copyR {
   text-align: center;
+  margin-bottom: -100px;
 }
 
+#inputUsuarioIP{
+  margin-bottom: 10px;
+}
+
+#inputUsuarioIA{
+  margin-bottom: 10px;
+}
+
+#btnLoginIP{
+  margin-top: 20px;
+}
+
+#btnLoginIA{
+  margin-top: 20px;
+}
 /*-------------------------------------------------------------Registrar Profesor------------------------------------------------------------------*/
 .form {
   position: relative;
@@ -315,7 +319,7 @@
 }
 
 /*El tamaño y posicionamiento del logo */
-#imagenIP {
+#imagenRP {
   position: relative;
   top: -23px;
   left: 40px;
@@ -323,34 +327,21 @@
   width: 170px;
 }
 
-.input {
-  outline: 0;
-  background: #f2f2f2;
-  width: 100%;
-  border: 0;
-  margin: 0 0 15px;
-  padding: 15px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  box-sizing: border-box;
-  font-size: 14px;
-}
 
-#containerIP {
+
+#containerRP {
   position: relative;
   z-index: 1;
   max-width: 300px;
   margin: 0 auto;
 }
 
-#containerIP #infoIP {
+#containerRP #infoRP {
   margin: 50px auto;
   text-align: center;
 }
 
-#containerIP #infoIP #h1IP {
+#containerRP #infoRP #h1RP {
   margin: 0 0 15px;
   padding: 0;
   font-size: 36px;
