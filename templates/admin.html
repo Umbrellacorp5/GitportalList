@@ -12,23 +12,22 @@
     <title>Administracion</title>
 </head>
 
-<body>
+<body id="bodyAdmin">
     <header>
-        <p>hola que tal</p>
-        <a href="index.html">
+        <a href="index.html" id="aIndexTitle">
             <h1 id="portalList">Portal List</h1>
         </a>
-        <a href="index.html"><img id= "plImg" src="Imagenes/PL.png" alt="Portal List"></a>
+        <a id="aIndexImg" href="index.html"><img id= "plImg" src="Imagenes/PL.png" alt="Portal List"></a>
     </header>
 
     <main>
-        <form action="registroAlumno.html">
+        <form action="registroAlumno.html" id="formAdminAlumno">
             <button id="btnCrearAlumno"type="sumbit">Crear Alumno</button>
         </form>
-        <form action="registroProfesor.html">
+        <form action="registroProfesor.html" id="formAdminProfesor">
             <button id="btnCrearProfesor"type="sumbit">Crear Profesor</button>
         </form>
-        <form action="registros.html">
+        <form action="registros.html" id="formAdminRegistro">
             <button id="btnVerRegistros" type="sumbit">Ver Registros</button>
         </form>
     </main>

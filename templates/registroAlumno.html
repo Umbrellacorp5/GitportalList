@@ -12,16 +12,16 @@
         <title>Registro alumno</title>
 </head>
 
-<body>
+<body id="bodyREal">
         <header>
-                <a href="index.html">
+                <a href="index.html" id="aIndexTitle">
                         <h1 id="portalList">Portal List</h1>
                 </a>
-                <a href="index.html"><img id= "plImg" src="Imagenes/PL.png" alt="Portal List"></a>
+                <a id="aIndexImg" href="index.html"><img id= "plImg" src="Imagenes/PL.png" alt="Portal List"></a>
         </header>
         <main>
                         <h2 id="registrarAlumnoTitle">Registrar Alumno</h2>
-                        <form action="" method="POST">
+                        <form id="formRegAlu" action="" method="POST">
                                 <!--Action tiene que guardar los datos en la base de datos-->
                                
                                         <input id="nombreRegistroAlumno" type="text" placeholder="Nombre" required pattern="[A-Za-z]{1,50}"> <br><br>
@@ -33,7 +33,7 @@
                                         <label>Grupo</label>
                                         <select>
                                                 <option>3BK</option>
-                                        </select><br><br>
+                                        </select>       
 
                                         
                                         <input id="emailRegistroAlumno" type="email" placeholder="Email" pattern required><br><br>                                     
