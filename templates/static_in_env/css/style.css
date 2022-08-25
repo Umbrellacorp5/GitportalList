@@ -251,7 +251,7 @@
 
 
 #contactUsIP {
-  margin-bottom: 0px;
+  margin: 0 0 0px;
   font-size: 18px;
   text-align: center;
 }
@@ -276,6 +276,11 @@
   margin-bottom: 10px;
  
 }
+
+#inputUsuarioIA{
+  margin-bottom: 10px;
+}
+
  #imgIUser {
   z-index: 100;
   height: 20px;
@@ -285,6 +290,7 @@
   margin-top: 7px;
   position:absolute;
 }
+
 #imgIPass {
   z-index: 100;
   height: 20px;
@@ -294,9 +300,7 @@
   margin-top: 55px;
   position:absolute;
 }
-#inputUsuarioIA{
-  margin-bottom: 10px;
-}
+
 
 #btnLoginIP{
   margin-top: 20px;
@@ -306,8 +310,12 @@
   margin-top: 20px;
 }
 
-#bodyIP{
-  overflow: hidden;
+#bodyIP {
+  overflow-x: hidden;
+}
+
+#bodyIA {
+  overflow-x: hidden;
 }
 /*-------------------------------------------------------------Registrar Profesor------------------------------------------------------------------*/
 .form {
