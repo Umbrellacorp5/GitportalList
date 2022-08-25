@@ -305,6 +305,10 @@
 #btnLoginIA{
   margin-top: 20px;
 }
+
+#bodyIP{
+  overflow: hidden;
+}
 /*-------------------------------------------------------------Registrar Profesor------------------------------------------------------------------*/
 .form {
   position: relative;
