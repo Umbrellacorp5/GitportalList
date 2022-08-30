@@ -305,6 +305,14 @@
 #bodyIA {
   overflow-x: hidden;
 }
+
+#correctoIP{
+  color: rgb(10, 184, 10);
+}
+
+#incorrectoIP{
+  color: red;
+}
 /*-------------------------------------------------------------Registrar Profesor------------------------------------------------------------------*/
 .form {
   position: relative;
