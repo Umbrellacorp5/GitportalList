@@ -4,31 +4,82 @@
 <html lang="es">
 
 <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="templates/style/style.css">
-        <link rel="icon" href="Imagenes/PL.ico">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="static_in_env/css/bootstrap.css"/>
+<link rel="stylesheet" href="static_in_env/css/style.css"/>
+<link rel="icon" href="static_in_env/img/logoPL.ico">
         <title>Registro alumno</title>
+        <style>
+                .row::after {
+                  content: "";
+                  clear: both;
+                  display: table;
+                }
+                
+                [class*="col-"] {
+                  float: left;
+                  padding: 15px;
+                }
+                
+                /* For mobile phones: */
+                [class*="col-"] {
+                  width: 100%;
+                }
+                
+                @media only screen and (min-width: 600px) {
+                  /* For tablets: */
+                  .col-s-1 {width: 8.33%;}
+                  .col-s-2 {width: 16.66%;}
+                  .col-s-3 {width: 25%;}
+                  .col-s-4 {width: 33.33%;}
+                  .col-s-5 {width: 41.66%;}
+                  .col-s-6 {width: 50%;}
+                  .col-s-7 {width: 58.33%;}
+                  .col-s-8 {width: 66.66%;}
+                  .col-s-9 {width: 75%;}
+                  .col-s-10 {width: 83.33%;}
+                  .col-s-11 {width: 91.66%;}
+                  .col-s-12 {width: 100%;}
+                }
+                @media only screen and (min-width: 768px) {
+                  /* For desktop: */
+                  .col-1 {width: 8.33%;}
+                  .col-2 {width: 16.66%;}
+                  .col-3 {width: 25%;}
+                  .col-4 {width: 33.33%;}
+                  .col-5 {width: 41.66%;}
+                  .col-6 {width: 50%;}
+                  .col-7 {width: 58.33%;}
+                  .col-8 {width: 66.66%;}
+                  .col-9 {width: 75%;}
+                  .col-10 {width: 83.33%;}
+                  .col-11 {width: 91.66%;}
+                  .col-12 {width: 100%;}
+                }
+                </style>
 </head>
+
 
 <body id="bodyREal">
         <header>
                 <a href="index.html" id="aIndexTitle">
                         <h1 id="portalList">Portal List</h1>
                 </a>
-                <a id="aIndexImg" href="index.html"><img id= "plImg" src="Imagenes/PL.png" alt="Portal List"></a>
+                <a id="aIndexImg" href="index.html"><img id= "imgRA" src="Imagenes/PL.png" alt="Portal List"></a>
         </header>
         <main>
                         <h2 id="registrarAlumnoTitle">Registrar Alumno</h2>
                         <form id="formRegAlu" action="" method="POST">
                                 <!--Action tiene que guardar los datos en la base de datos-->
                                
-                                        <input id="nombreRegistroAlumno" type="text" placeholder="Nombre" required pattern="[A-Za-z]{1,50}"> <br><br>
-                                        <input id="apellidoRegistroAlumno"type="text" placeholder="Apellido" required pattern="[A-Za-z]{1,50}"><br><br>
-                                        <input id="ciRegistroAlumno"type="number" placeholder="Cédula" required><br><br>                                    
-                                        <input id="nPadre"type="number" placeholder="Número del padre" required><br><br>
-                                        <input id="fotoAlumno"type="file" placeholder="Foto" required><br><br>
+                                        <input class="form-control" id="nombreRegistroAlumno" type="text" placeholder="Nombre" required pattern="[A-Za-z]{1,50}"> <br><br>
+                                        <input class="form-control" id="apellidoRegistroAlumno"type="text" placeholder="Apellido" required pattern="[A-Za-z]{1,50}"><br><br>
+                                        <input class="form-control" id="ciRegistroAlumno"type="number" placeholder="Cédula" required><br><br>                                    
+                                        <input class="form-control" id="nPadre"type="number" placeholder="Número del padre" required><br><br>
+                                        <input class="form-control" id="fotoAlumno"type="file" placeholder="Foto" required><br><br>
 
                                         <label>Grupo</label>
                                         <select>
@@ -36,13 +87,13 @@
                                         </select>       
 
                                         
-                                        <input id="emailRegistroAlumno" type="email" placeholder="Email" pattern required><br><br>                                     
-                                        <input id="usuarioRegistroAlumno"type="text" placeholder="Usuario (CI)" required><br><br>
+                                        <input class="form-control" id="emailRegistroAlumno" type="email" placeholder="Email" pattern required><br><br>                                     
+                                        <input class="form-control" id="usuarioRegistroAlumno"type="text" placeholder="Usuario (CI)" required><br><br>
 
 
-                                        <input id="contraRegistroAlumno" type="password" placeholder="Contraseña (CI)" required><br><br>
+                                        <input class="form-control" id="contraRegistroAlumno" type="password" placeholder="Contraseña (CI)" required><br><br>
                                         <!--Cambiar type="text"-->
-                                        <button id="btnRegistroAlumno" type="sumbit">Registrar Alumno</button>
+                                        <button id="btnRegistroAlumno" class="btn btn-primary" type="sumbit">Registrar Alumno</button>
                         </form>
         </main>
         <footer>

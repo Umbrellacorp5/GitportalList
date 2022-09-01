@@ -314,10 +314,11 @@
   color: red;
 }
 /*-------------------------------------------------------------Registrar Profesor------------------------------------------------------------------*/
-.form {
+/* El formIP(es el formulario de ingresarProfesor.html )*/
+#formRP {
   position: relative;
   z-index: 1;
-  background: #FFFFFF;
+  background: #d3d3d3;
   max-width: 300px;
   margin: 0 auto 100px;
   padding: 30px;
@@ -328,91 +329,161 @@
   text-align: center;
 }
 
-#formRP #thumbnailRP {
-  background: rgb(242, 242, 242);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto -150px;
-  padding: 50px 30px;
-  border-top-left-radius: 100%;
-  border-top-right-radius: 100%;
-  border-bottom-left-radius: 100%;
-  border-bottom-right-radius: 100%;
-  box-sizing: content-box;
+#formRegAlu {
+  position: relative;
+  z-index: 1;
+  background: #d3d3d3;
+  max-width: 300px;
+  margin: 0 auto 100px;
+  padding: 30px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  text-align: center;
 }
 
 /*Esto es para que el logo no se deforme*/
 .img {
   max-width: 100%;
   max-height: 100%;
+  
 }
 
 /*El tamaño y posicionamiento del logo */
-#imagenRP {
+#imgRP {
   position: relative;
-  top: -23px;
-  left: 40px;
-  height: 170px;
-  width: 170px;
+  margin: auto;
+  height: 270px;
+  width: 250px;
+  object-fit: none;
+  padding-top: 10px;
 }
 
+#imgRA {
+  position: relative;
+  margin: auto;
+  height: 270px;
+  width: 250px;
+  object-fit: none;
+  padding-top: 10px;
+}
 
-
-#containerRP {
+/*Contenedor de h1 */
+#containerIP {
   position: relative;
   z-index: 1;
   max-width: 300px;
   margin: 0 auto;
 }
 
-#containerRP #infoRP {
+#containerIA {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#containerIP #infoIP {
   margin: 50px auto;
   text-align: center;
 }
 
-#containerRP #infoRP #h1RP {
-  margin: 0 0 15px;
+#containerIA #infoIA {
+  margin: 50px auto;
+  text-align: center;
+}
+
+/*Modifica forma/color/tamaño de h1 */
+#containerIP #infoIP #h1IP {
+  margin: auto;
   padding: 0;
   font-size: 36px;
   font-weight: 300;
   color: #1a1a1a;
 }
 
-#bodyI {
-  background: rgb(231, 228, 228);
-  font-family: Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#containerIA #infoIA #h1IA {
+  margin: auto;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
 }
 
-.form #buttonRP {
-  outline: 0;
-  background: #2ECCFA;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  color: #FFFFFF;
-  font-size: 14px;
-  transition: all 0.3 ease;
-  cursor: pointer;
+/*Tamaño a PortalList */
+#containerIP #infoIP #spanIP {
+  font-size: 12px;
 }
 
-.form #buttonRP:hover {
-  outline: 0;
-  background: orange;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  color: #FFFFFF;
-  font-size: 14px;
-  transition: all 0.3 ease;
-  cursor: pointer;
-}/*# sourceMappingURL=style.css.map */
+#containerIA #infoIA #spanIA {
+  font-size: 12px;
+}
+
+/*Le saca el color al texto (linkeado) */
+#containerIP #infoIP #spanIP #aIP {
+  color: #000000;
+  text-decoration: none;
+}
+
+#containerIA #infoIA #spanIA #aIA {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+#contactUsIP {
+  margin: 0 0 0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#contactUsIA {
+  margin: 0 0 0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.aCU {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.copyR {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#inputUsuarioIP{
+  margin-bottom: 10px;
+ 
+}
+
+#inputUsuarioIA{
+  margin-bottom: 10px;
+}
+
+ #imgIUser {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+  margin-left:84px ;
+  margin-top: 8px;
+  position:absolute;
+}
+
+#btnLoginIP{
+  margin-top: 20px;
+}
+
+#btnLoginIA{
+  margin-top: 20px;
+}
+
+#bodyIP {
+  overflow-x: hidden;
+}
+
+#bodyIA {
+  overflow-x: hidden;
+}
