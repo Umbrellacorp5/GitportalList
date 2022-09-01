@@ -62,73 +62,98 @@
   bottom: 0;
   width: 100%;
 }
-
-#plImg {
-  position: absolute;
-  left: 700px;
-  top: 200px;
-}
-
-#elegirUsuarioTitle {
-  margin: 0;
-  padding: 20px 0;
-  color: skyblue;
-  font-size: 130px;
-  font-weight: 500;
+/*-------------------------------------------------------------Eligir Usuario--------------------------------------------------------*/
+#bodyElegirUsuario {
+  box-sizing: border-box;
+  text-align: center;
 }
 
 #btnElegirAlumno {
-  text-align: center;
   display: inline-block;
-  text-decoration: none;
-  color: white;
-  background-color: #fd7e14;
-  border: 12px;
-  padding: 12px 34px;
-  font-size: 16px;
-  cursor: pointer;
   position: relative;
-  width: 200px;
-  height: 70px;
-  border-radius: 4px;
-  transition-duration: 0.4s;
-  right: 100px;
-  top: 470px;
-}
-
-.button:hover btnElegirAlumno {
-  background-color: #378dfc;
-  color: white;
+  right: 202px;
+  bottom: -30px;
+  width: 100px;
+  margin: auto;
 }
 
 #btnElegirProfesor {
-  text-align: center;
   display: inline-block;
-  text-decoration: none;
-  color: white;
-  background-color: #378dfc;
-  border: 12px;
-  padding: 12px 34px;
-  font-size: 16px;
-  cursor: pointer;
   position: relative;
-  width: 200px;
-  height: 70px;
-  border-radius: 4px;
-  left: 120px;
-  top: 400px;
+  bottom: 140px;
+  width: 100px;
+  margin: auto;
 }
 
-#contactUs {
-  display: flex;
+#contactUsElegirUsuario{
+  text-decoration: none;
+  color: #000;
+}
+
+#footerElegirUsuario {
+  margin: 0 0 0px;
+  font-size: 18px;
   text-align: center;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
+  position: relative;
+  top:-40px;
+  height: 10px;
 }
 
-#portalList {
-  display: inline-block;
+#elegirUsuarioTitle {
+  padding: 20px 0;
+  font-size: 50px;
+  font-weight: 600px;
+}
+
+#plImgEligirAlumno{
+  text-align: center;
+  position: relative;
+  left: 55px;
+  height: 450px;
+  width: 400px;
+  bottom: 120px;
+}
+#fondoPaginaEligirUsuario{
+  position: absolute;
+  background-position: center;
+  right: 100px;
+  height: 661px;
+  width: 1230px;
+  background-image: url(/fondoEligirUsuario.webp);
+  background-attachment: fixed;
+  opacity: 0.5;
+}
+/*-------------------------------------------------------------Asistencia-----------------------------------------------------------------------------*/
+#portalListAsisti {
+  padding: 20px 0;
+  font-size: 50px;
+  font-weight: 600px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
+
+#footerAsistencia{
+  margin: 0 0 0px;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  top:-30px;
+  height: 0px;
+}
+
+#btnAsisti{
+  text-align: center;
+  position: relative;
+  width:auto;
+  top:-150px;
+  left: 635px;
+}
+
+#plImgAsistencia{
+  position: relative;
+  left: 475px;
+  height: 450px;
+  width: 400px;
+  bottom: 70px;
 }
 
 /*-------------------------------------------------------------Ingresar Profesor------------------------------------------------------------------*/
