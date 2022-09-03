@@ -68,25 +68,60 @@
     <main>
         <div id="containerIP">
         <div id="infoIP">
-          <h1 id="h1IP">Iniciar Sesión Profesor</h1><span id="spanIP"><a id="aIP" href="/index.html">Portal List</a></span>
+          <h1 id="h1IP">Registrar Profesor</h1><span id="spanIP"><a id="aIP" href="/index.html">Portal List</a></span>
         </div>
       </div>
       <div id="formIP">
         <div id="imagenIP"><img class ="img" id="imgIP" src="static_in_env/img/LogoPL.png"/></div>
         <form class="loginFormIP" id="login-formIP" autocomplete="off">
           <div id="icoUser"> <img class="imgIcoUser" id="imgIUser"src="static_in_env/img/icoUser.png"></div>
-          <input class="form-control" id="inputUsuarioIP" type="text" placeholder="Usuario">
-          <input class="form-control" id="inputContraseñaIP" type="password" placeholder="Contraseña">
-          <p id="correctoIP"></p>
-          <p id="incorrectoIP"></p>
-          <button type="submit" class="btn btn-primary" id="btnLoginIP">Iniciar Sesión</button>
+          <input class="form-control" id="inputUsuarioIP" type="text" placeholder="Nombre">
+          <input class="form-control" id="inputContraseñaIP" type="password" placeholder="Apellido">
+          <input class="form-control" id="inputCIIP" type="password" placeholder="Cédula">
+         <input class="form-control" id="emailRegistroProfesor" type="email" placeholder="Email" required pattern>  
+          <input class="form-control" id="usuarioRegistroProfesor" type="text" placeholder="Usuario (CI)" required>
+          <input class="form-control" id="contraRegistroProfesor" type="password" placeholder="Contraseña" required>
+          <label>Materias</label>
+          <select id="selectRP" name="Seleccionar una materia">
+              <option>Matemáticas</option>
+              <option>Sistemas Operativos I</option>
+              <option>Sistemas Operativos II</option>
+              <option>Sistemas Operativos III</option>
+              <option>A.D.A</option>
+              <option>Gestión de Proyecto</option>
+              <option>Formación Empresarial</option>
+              <option>Filosofía</option>
+              <option>Sociología</option>
+              <option>Inglés</option>
+              <option>Base de Datos I</option>
+              <option>Base de Datos II</option>
+              <option>Programación I</option>
+              <option>Programación II</option>
+              <option>Programación III</option>
+              <option>Redes datos y seguridad</option>
+              <option>Economía</option>
+              <option>A.P.T</option>
+              <option>Laboratorio Equipos Informatico</option>
+              <option>Geometría</option>
+              <option>Diseño Web</option>
+
+
+          </select>
+          
+          <label>Grupos</label>
+                <select>
+                    <option>3BK</option>
+                  
+                </select><br><br>
+          
+          <button type="submit" class="btn btn-primary" id="btnRegistrarRP">Registrar</button>
         </form>
       </div>
       </main>
 
  <!--   <main>
 
-            <h1 id="registrarProfesorTitle">Registrar Profesor</h1>
+      
             <div id="formRP">
                 <div id="thumbnailRP"></div>
                 <div id="imagenRP"><img class ="img" id="imgRP" src="static_in_env/img/LogoPL.png"/></div>  
@@ -97,37 +132,9 @@
                 <input class="form-control" id="apellidoRegistroProfesor" type="text" placeholder="Apellido" required pattern="[A-Za-z]{1,50}">
                 <input class="form-control" id="ciRegistroProfesor" type="text" placeholder="Cédula" required>
 
-                <label>Materias</label>
-                <select name="Seleccionar una materia">
-                    <option>Matemáticas</option>
-                    <option>Sistemas Operativos I</option>
-                    <option>Sistemas Operativos II</option>
-                    <option>Sistemas Operativos III</option>
-                    <option>A.D.A</option>
-                    <option>Gestión de Proyecto</option>
-                    <option>Formación Empresarial</option>
-                    <option>Filosofía</option>
-                    <option>Sociología</option>
-                    <option>Inglés</option>
-                    <option>Base de Datos I</option>
-                    <option>Base de Datos II</option>
-                    <option>Programación I</option>
-                    <option>Programación II</option>
-                    <option>Programación III</option>
-                    <option>Redes datos y seguridad</option>
-                    <option>Economía</option>
-                    <option>A.P.T</option>
-                    <option>Laboratorio Equipos Informatico</option>
-                    <option>Geometría</option>
-                    <option>Diseño Web</option>
-                    
-                </select>
+                
 
-                <label>Grupos</label>
-                <select>
-                    <option>3BK</option>
-                  
-                </select><br><br>
+                <
 
                 
                 <input class="form-control" id="emailRegistroProfesor" type="email" placeholder="Email" required pattern>  

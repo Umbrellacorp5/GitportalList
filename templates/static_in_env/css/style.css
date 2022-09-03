@@ -338,6 +338,60 @@
 #incorrectoIP{
   color: red;
 }
+
+/*-------------------------------------------------------------Admin------------------------------------------------------------------*/
+#portalList {
+  padding: 20px 0;
+  font-size: 50px;
+  font-weight: 600px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
+
+#footerAdmin{
+  margin: 0 0 0px;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  top:-30px;
+  height: 0px;
+}
+
+#btnCrearAlumno{
+  text-align: center;
+  position: relative;
+  width:auto;
+  top:-150px;
+  left: 635px;
+}
+
+#btnCrearProfesor{
+  text-align: center;
+  position: relative;
+  width:auto;
+  top:-150px;
+  left: 635px;
+}
+
+#btnVerRegistros{
+  text-align: center;
+  position: relative;
+  width:auto;
+  top:-150px;
+  left: 635px;
+}
+
+#plImgAdmin{
+  position: relative;
+  left: 475px;
+  height: 450px;
+  width: 400px;
+  bottom: 70px;
+}
+
+
+
+
+
 /*-------------------------------------------------------------Registrar Profesor------------------------------------------------------------------*/
 /* El formIP(es el formulario de ingresarProfesor.html )*/
 #formRP {
