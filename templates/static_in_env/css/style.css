@@ -449,32 +449,32 @@
 }
 
 /*Contenedor de h1 */
-#containerIP {
+#containerRP {
   position: relative;
   z-index: 1;
   max-width: 300px;
   margin: 0 auto;
 }
 
-#containerIA {
+#containerRA {
   position: relative;
   z-index: 1;
   max-width: 300px;
   margin: 0 auto;
 }
 
-#containerIP #infoIP {
+#containerRP #infoRP {
   margin: 50px auto;
   text-align: center;
 }
 
-#containerIA #infoIA {
+#containerRA #infoRA {
   margin: 50px auto;
   text-align: center;
 }
 
 /*Modifica forma/color/tamaño de h1 */
-#containerIP #infoIP #h1IP {
+#containerRP #infoRP #h1RP {
   margin: auto;
   padding: 0;
   font-size: 36px;
@@ -482,7 +482,7 @@
   color: #1a1a1a;
 }
 
-#containerIA #infoIA #h1IA {
+#containerRA #infoRA #h1RA {
   margin: auto;
   padding: 0;
   font-size: 36px;
@@ -491,33 +491,33 @@
 }
 
 /*Tamaño a PortalList */
-#containerIP #infoIP #spanIP {
+#containerRP #infoRP #spanRP {
   font-size: 12px;
 }
 
-#containerIA #infoIA #spanIA {
+#containerRA #infoRA #spanRA {
   font-size: 12px;
 }
 
 /*Le saca el color al texto (linkeado) */
-#containerIP #infoIP #spanIP #aIP {
+#containerRP #infoRP #spanRP #aRP {
   color: #000000;
   text-decoration: none;
 }
 
-#containerIA #infoIA #spanIA #aIA {
+#containerRA #infoRA #spanRA #aRA {
   color: #000000;
   text-decoration: none;
 }
 
 
-#contactUsIP {
+#contactUs {
   margin: 0 0 0px;
   font-size: 18px;
   text-align: center;
 }
 
-#contactUsIA {
+#contactUs {
   margin: 0 0 0px;
   font-size: 18px;
   text-align: center;
@@ -533,12 +533,12 @@
   margin-bottom: 10px;
 }
 
-#inputUsuarioIP{
+#inputsuarioRegistroProfesor{
   margin-bottom: 10px;
  
 }
 
-#inputUsuarioIA{
+#inputemailRegistroAlumno{
   margin-bottom: 10px;
 }
 
@@ -551,18 +551,19 @@
   position:absolute;
 }
 
-#btnLoginIP{
+#btnRegistrarRP{
   margin-top: 20px;
 }
 
-#btnLoginIA{
+#btnbtnRegistroAlumno{
   margin-top: 20px;
 }
 
-#bodyIP {
+#bodyRP {
   overflow-x: hidden;
 }
 
-#bodyIA {
+#bodyRA {
   overflow-x: hidden;
 }
+  
