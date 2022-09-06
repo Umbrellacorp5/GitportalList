@@ -568,4 +568,38 @@
 #bodyRA {
   overflow-x: hidden;
 }
-  
+/*------------------------------------------------------------Lista-----------------------------------------------------------------------*/
+#portalListLista {
+  padding: 20px 0;
+  font-size: 50px;
+  font-weight: 600px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
+
+#footerLista{
+  margin: 0 0 0px;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  height: 0px;
+}
+
+#plImgLista{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: -170px;
+  left: -60px;
+}
+
+#mainLista{
+position: relative;
+top: 	-200px;
+text-align: center;
+}
+
+#btnAbrirLista{
+ position: relative;
+ bottom: -30px;
+}
