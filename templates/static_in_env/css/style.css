@@ -145,15 +145,17 @@
   position: relative;
   width:auto;
   top:-150px;
-  left: 635px;
+  left: 640px;
 }
 
 #plImgAsistencia{
   position: relative;
-  left: 475px;
+  left: 480px;
   height: 450px;
   width: 400px;
   bottom: 70px;
+  object-fit: none;
+  padding-top: 10px;
 }
 
 /*-------------------------------------------------------------Ingresar Profesor------------------------------------------------------------------*/
@@ -577,7 +579,7 @@
   color: #1a1a1a;
 }/*# sourceMappingURL=style.css.map */
 #footerLista{
-  margin: 0 0 0px;
+ margin: 0 0 0px;
   font-size: 18px;
   text-align: center;
   position: relative;
