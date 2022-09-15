@@ -69,12 +69,13 @@
 }
 
 #btnElegirAlumno {
-  display: inline-block;
-  position: relative;
-  right: 202px;
-  bottom: -30px;
-  width: 100px;
-  margin: auto;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 80px;
 }
 
 #btnElegirProfesor {
@@ -94,34 +95,30 @@
   margin: 0 0 0px;
   font-size: 18px;
   text-align: center;
-  position: relative;
-  top:-40px;
-  height: 10px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 0px;
 }
 
 #elegirUsuarioTitle {
   padding: 20px 0;
   font-size: 50px;
   font-weight: 600px;
+  text-align: center;
 }
 
 #plImgEligirAlumno{
-  text-align: center;
-  position: relative;
-  left: 55px;
-  height: 450px;
-  width: 400px;
-  bottom: 120px;
-}
-#fondoPaginaEligirUsuario{
-  position: absolute;
-  background-position: center;
-  right: 100px;
-  height: 661px;
-  width: 1230px;
-  background-image: url(/fondoEligirUsuario.webp);
-  background-attachment: fixed;
-  opacity: 0.5;
+  display: block;
+  position: block;
+  height: 300px;
+  width: 300px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  object-fit: none;
+  padding-top: 10px;
 }
 /*-------------------------------------------------------------Asistencia-----------------------------------------------------------------------------*/
 #portalListAsisti {
@@ -135,25 +132,31 @@
   margin: 0 0 0px;
   font-size: 18px;
   text-align: center;
-  position: relative;
-  top:-30px;
-  height: 0px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 0px;
 }
 
 #btnAsisti{
+  display: block;
   text-align: center;
-  position: relative;
-  width:auto;
-  top:-150px;
-  left: 640px;
+  justify-content: center;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 40px;
 }
 
 #plImgAsistencia{
-  position: relative;
-  left: 480px;
-  height: 450px;
-  width: 400px;
-  bottom: 70px;
+  display: block;
+  position: block;
+  height: 300px;
+  width: 300px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
   object-fit: none;
   padding-top: 10px;
 }
@@ -573,9 +576,12 @@
 /*------------------------------------------------------------Lista-----------------------------------------------------------------------*/
 #portalListLista {
   padding: 20px 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  text-align: center;
   font-size: 36px;
   font-weight: 300px;
-  text-align: center;
   color: #1a1a1a;
 }/*# sourceMappingURL=style.css.map */
 #footerLista{
@@ -588,6 +594,7 @@
 }
 
 #plImgLista{
+  display: block;
   width: 300px;
   height: 300px;
   position: relative;
