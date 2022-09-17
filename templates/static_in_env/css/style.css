@@ -605,3 +605,37 @@ text-align: center;
  position: static;
  text-align: center;
 }
+/*----------------------------------------Index--------------------------------------------*/
+
+#textoVenta {
+  position: relative;
+  top: auto;
+  text-align: center;
+}
+
+#contactUs {
+  position: relative;
+  top: auto;
+  text-align: center;
+  color: #000;
+}
+
+#iniciarSesion {
+  position: relative;
+  top: auto;
+  text-align: center;
+}
+
+#btnIniciarSesionIndex{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#f8f8f8;
+    border-radius: 6px;
+    border: 2px solid #000;
+  }
+
+
+
