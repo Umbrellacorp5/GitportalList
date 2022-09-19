@@ -642,6 +642,14 @@ text-align: center;
     background-color:#f8f8f8;
     border-radius: 6px;
     border: 2px solid #000;
+    text-align: center;
+  }
+
+  #plImg{
+   
+    display: block;
+    margin-left: 37%;
+    margin-right:37%;
   }
 
 
