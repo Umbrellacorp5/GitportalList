@@ -1,12 +1,17 @@
+<!--HTML-Empresa
+    Formulario Login-->
 <!DOCTYPE html>
+<!-- Esta línea sirve para avisarle al navegador que ejecute HTML5(HTML5 es algo actual, sin esta línea los navegadoers ejecutarían un protocolo antiguo.)-->
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static_in_env/css/bootstrap.css"/>
     <link rel="stylesheet" href="static_in_env/css/style.css"/>
-    <link rel="stylesheet" href="bootstrap.css">
-    <title>Asistencia</title>
+    <link rel="icon" href="static_in_env/img/LogoNuevo.ico">
+    <title>Ingresar Administrador</title>
     <style>
         .row::after {
           content: "";
@@ -56,19 +61,31 @@
         }
         </style>
 </head>
-<body id="bodyAsist">
-        <a href="portalList/index.html">
-            <h1 id="portalListAsisti">Portal List</h1>
-        </a>
-        <a href="index.html"><img id= "plImgAsistencia" src="static_in_env/img/LogoPL.png" alt="Portal List"></a>
-    <main>
-        <p id="materiaAsisti"></p>
-        <button id="btnAsisti" type="sumbit" class="btn btn-primary btn-lg">Asistí</button> <!--falta terminar-->
-    </main>
 
-    <footer id="footerAsistencia">
+
+<body id="bodyIadmin">
+    <header>
+        <a href="index.html">
+            <h1 id="portalList">Portal List</h1>
+        </a>
+        <a href="index.html"><img id= "plImg" src="templates/static_in_env/img/PL.png" alt="Portal List"></a>
+    </header>
+    <main>
+        <h1 id= "iniciarSesiónTitle" >Iniciar Sesión</h1>
+        <h2 id= "ingresarAdminTitle">Ingrese su usuario administrador </h2>
+        <form action="admin.html" method="POST">
+            <!--action=verifica los datos y redirecciona-->
+            <label>Email</label>
+            <input id="emailAdmin" type="email" name="cajaEmail" required><br><br>
+            <label>Contraseña</label>
+            <input id="contraAdmin" type="password" name="cajaContraseña"><br><br>
+            <a href="admin.html"><button id="btnIniciarSesiónAdmin"type="sumbit">Iniciar Sesión</button></a>
+        </form>
+    </main>
+    <footer>
         <p id="contactUs"> <a href="contactUs.html">Contáctanos</a></p>
-        <p id="copyR">© 2022 Portal List, Inc.</p>
+        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+        <h5 id="copyR">© 2022 Portal List, Inc.</h5>
     </footer>
 </body>
 <!-- CSS only -->
