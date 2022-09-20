@@ -631,14 +631,20 @@ text-align: center;
     padding: 4px 20px;
     font-size: 20px;
     color: #ffffff;
-    background:#65ddf6;
+    background:#000000;
     border-radius: 6px;
-    border: 2px solid #65ddf6;
-    text-align: center;
+    border: 4px solid #000000;
+   
 }
 
+#tituloIndex{
+  margin-left: 2% ;
+  color: white;
+  width: 100px;
+  height: 100px;
+}
 
-#btnIniciarSesionIndex{
+#btnIniciarSesiónIndex{
     text-decoration: none;
     padding: 4px 20px;
     font-size: 20px;
@@ -646,7 +652,8 @@ text-align: center;
     background:#000000;
     border-radius: 6px;
     border: 2px solid #000;
-   margin-left: 37%;
+   margin-left: 46%;
+   margin-right:37%;
   }
 
   #plImg{
@@ -687,6 +694,27 @@ text-align: center;
   height: 100px; ;
 }
 
+#tituloInAdmin{
+  margin-left: 2% ;
+  color: white;
+  width: 100px;
+  height: 100px;
+}
+
+#mainInAdmin{
+margin-left: 2%;
+}
+
+#btnIniciarSesiónAdmin{
+  text-decoration: none;
+  padding: 4px 20px;
+  font-size: 20px;
+  color: #ffffff;
+  background:#000000;
+  border-radius: 6px;
+  border: 2px solid #000;
+
+}
 
 
 /*----------------------------------------ContactUs--------------------------------------------*/
@@ -694,4 +722,12 @@ text-align: center;
 #headerContactUs{
   background-color:#238ce1;
   height: 100px; ;
+}
+
+
+#tituloContactUs{
+  margin-left: 2% ;
+  color: white;
+  width: 100px;
+  height: 100px;
 }
