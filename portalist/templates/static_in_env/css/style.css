@@ -620,37 +620,63 @@ text-align: center;
   text-align: center;
 }
 
-#contactUs {
-  position: relative;
-  top: auto;
-  text-align: center;
-  color: #000;
-}
-
 #iniciarSesion {
   position: relative;
   top: auto;
   text-align: center;
 }
 
-#btnIniciarSesionIndex{
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
+#contactUsA{
+  text-decoration: none;
+    padding: 4px 20px;
     font-size: 20px;
     color: #ffffff;
-    background-color:#f8f8f8;
+    background:#65ddf6;
+    border-radius: 6px;
+    border: 2px solid #65ddf6;
+    text-align: center;
+}
+
+
+#btnIniciarSesionIndex{
+    text-decoration: none;
+    padding: 4px 20px;
+    font-size: 20px;
+    color: #ffffff;
+    background:#000000;
     border-radius: 6px;
     border: 2px solid #000;
-    text-align: center;
+   margin-left: 37%;
   }
 
   #plImg{
    
     display: block;
+    margin-top: 0cm;
     margin-left: 37%;
     margin-right:37%;
   }
 
+  #headerIndex{
+    background-color:#65ddf6;
+    height: 100px; ;
+  }
 
+  #contactUsA{
+    text-decoration: none;
+      padding: 4px 20px;
+      font-size: 20px;
+      color: #ffffff;
+      background:#000000;
+      border-radius: 6px;
+      border: 2px solid #000;
+      text-align: center;
+  }
+/*----------------------------------------IngresarAdministracion--------------------------------------------*/
 
+#portalList{
+  text-align: center;
+  display: block;
+  margin-left: 37%;
+  margin-right:37%;
+}
