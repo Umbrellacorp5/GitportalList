@@ -5,72 +5,48 @@ from django.shortcuts import render
 
 def adminPL(request):
 
-    name = 'juan'
-
-    return render(request, "admin.html", {"nombre":name})
+    return render(request, "admin.html")
 
 def asistencia(request):
 
-    name = 'juan'
-
-    return render(request, "asistencia.html", {"nombre":name})
+    return render(request, "asistencia.html")
 
 def contactUs(request):
 
-    name = 'juan'
-
-    return render(request, "contactUs.html", {"nombre":name})
+    return render(request, "contactUs.html")
 
 def elegirUsuario(request):
 
-    name = 'juan'
-
-    return render(request, "elegirUsuario.html", {"nombre":name})
+    return render(request, "elegirUsuario.html")
 
 def ingresarAdministrador(request):
 
-    name = 'juan'
-
-    return render(request, "ingrearAdministrador.html", {"nombre":name})
+    return render(request, "ingrearAdministrador.html")
 
 def ingresarAlumno(request):
 
-    name = 'juan'
-
-    return render(request, "ingresarAlumno.html", {"nombre":name})
+    return render(request, "ingresarAlumno.html")
 
 def ingresarProfesor(request):
 
-    name = 'juan'
-
-    return render(request, "ingresarProfesor.html", {"nombre":name})
+    return render(request, "ingresarProfesor.html")
 
 def lista(request):
 
-    name = 'juan'
-
-    return render(request, "lista.html", {"nombre":name})
+    return render(request, "lista.html")
 
 def registroAlumno(request):
 
-    name = 'juan'
-
-    return render(request, "registroAlumno.html", {"nombre":name})
+    return render(request, "registroAlumno.html")
 
 def registroProfesor(request):
 
-    name = 'juan'
-
-    return render(request, "registroProfesor.html", {"nombre":name})
+    return render(request, "registroProfesor.html")
 
 def seleccionarRegistro(request):
 
-    name = 'juan'
-
-    return render(request, "seleccionarRegistro.html", {"nombre":name})
+    return render(request, "seleccionarRegistro.html")
 
 def seleccionLista(request):
 
-    name = 'juan'
-
-    return render(request, "seleccionLista.html", {"nombre":name})
+    return render(request, "seleccionLista.html")
