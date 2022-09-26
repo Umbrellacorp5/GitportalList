@@ -680,6 +680,10 @@ text-align: center;
       text-align: center;
       margin-left: 90%;
   }
+
+  #copyR{
+    margin-left: 2%;
+  }
 /*----------------------------------------IngresarAdministracion--------------------------------------------*/
 
 #portalList{
