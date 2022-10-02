@@ -1,6 +1,8 @@
 from http.client import HTTPResponse
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib.auth import login, authenticate, logout
+from django.contrib.auth.models import User, auth
 
 
 def adminPL(request):
@@ -26,6 +28,17 @@ def ingresarAdministrador(request):
 def ingresarAlumno(request):
 
     return render(request, "ingresarAlumno.html")
+
+def iniciarSesionAl(request):
+    if request.method == "POST":
+        username=request.POST.get('inputUsuarioIA')
+        password=request.POST.get('inputContraseñaIA')
+        user = auth.authenticate(username='pepe',password='pepe')
+        if user is not None:
+            auth.login(request, user)
+            return redirect('asistencia')
+        else:
+            message.info(request,"Username or Password incorrect")
 
 def ingresarProfesor(request):
 
