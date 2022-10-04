@@ -32,6 +32,7 @@ class Alumno(models.Model):
     usuarioci = models.ForeignKey(Usuario, on_delete=models.CASCADE, primary_key=True, null=False)
     num_padre = models.CharField("num_padre", max_length=255, null=False)
     foto = models.CharField(max_length=255)
+    mac = models.CharField(max_length=255)
 
 class Grupo(models.Model):
     cod_grupo = models.IntegerField("cod_grupo",primary_key=True, null=False)
