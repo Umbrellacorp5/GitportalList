@@ -30,15 +30,15 @@ def ingresarAlumno(request):
     return render(request, "ingresarAlumno.html")
 
 def iniciarSesionAl(request):
-    if request.method == "POST":
-        username=request.POST.get('inputUsuarioIA')
-        password=request.POST.get('inputContraseñaIA')
-        user = auth.authenticate(username='pepe',password='pepe')
-        if user is not None:
-            auth.login(request, user)
+    #if request.method == "POST":
+       # username=request.POST.get('inputUsuarioIA')
+       # password=request.POST.get('inputContraseñaIA')
+       # user = auth.authenticate(username='pepe',password='pepe')
+       # if user is not None:
+        #   auth.login(request, user)
             return redirect('asistencia')
-        else:
-            message.info(request,"Username or Password incorrect")
+       # else:
+          #  message.info(request,"Username or Password incorrect")
 
 def ingresarProfesor(request):
 
