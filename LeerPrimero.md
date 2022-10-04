@@ -10,9 +10,10 @@ django
 mysqlclient
 psycopg2
 
-Notas:
-Models: Crear la base de datos desde aqui, mirar Iñaki
-docs.djangoproject.com/en/4.1/topics/models/
-
 froms, views: modificar los htmls para agregar y sacar datos con django, mirar Juan
 docs.djangoproject/en/4.1/topics/forms
+
+Renz https://docs.djangoproject.com/en/4.1/intro/tutorial02/
+Iñaki https://docs.djangoproject.com/en/4.1/intro/tutorial03/
+Juan https://docs.djangoproject.com/en/4.1/intro/tutorial04/
+Lima https://docs.djangoproject.com/en/4.1/intro/tutorial06/
