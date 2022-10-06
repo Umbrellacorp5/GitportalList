@@ -15,20 +15,21 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from portalist.views import adminPL, asistencia, contactUs, elegirUsuario, ingresarAdministrador, ingresarAlumno, ingresarProfesor, lista, registroAlumno, registroProfesor, seleccionarRegistro, seleccionLista
+from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('adminPL/', adminPL),
-    path('asistencia/', asistencia),
-    path('contactUs/', contactUs),
-    path('elegirUsuario/', elegirUsuario),
-    path('ingresarAdministrador/', ingresarAdministrador),
-    path('ingresarAlumno/', ingresarAlumno),
-    path('ingresarProfesor/', ingresarProfesor),
-    path('lista/', lista),
-    path('registroAlumno/', registroAlumno),
-    path('registroProfesor/', registroProfesor),
-    path('seleccionarRegistro/', seleccionarRegistro),
-    path('seleccionLista/', seleccionLista),
+    path('adminPL/', views.adminPL),
+    path('asistencia/', views.asistencia, name='asistencia'),
+    path('contactUs/', views.contactUs),
+    path('elegirUsuario/', views.elegirUsuario),
+    path('ingresarAdministrador/', views.ingresarAdministrador),
+    path('ingresarAlumno/', views.ingresarAlumno, name='ingresarAlumno'),
+    path('ingresarProfesor/', views.ingresarProfesor),
+    path('lista/', views.lista),
+    path('registroAlumno/', views.registroAlumno),
+    path('registroProfesor/', views.registroProfesor),
+    path('seleccionarRegistro/', views.seleccionarRegistro),
+    path('seleccionLista/', views.seleccionLista),
 ]
+

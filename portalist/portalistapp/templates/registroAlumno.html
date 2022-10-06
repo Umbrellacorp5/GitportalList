@@ -89,13 +89,14 @@
                                         </select>       
 
                                         
-                                        <input class="form-control" id="emailRegistroAlumno" type="email" placeholder="Email" pattern required><br><br>                                     
+                                        <input class="form-control" id="emailRegistroAlumno" type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br><br>                                     
                                         <input class="form-control" id="usuarioRegistroAlumno"type="text" placeholder="Usuario (CI)" required><br><br>
-
-
                                         <input class="form-control" id="contraRegistroAlumno" type="password" placeholder="Contraseña (CI)" required><br><br>
-                                        <!--Cambiar type="text"-->
+                                        <p id="correctoRA"></p>
+                                        <p id="incorrectoRA"></p>
+                                        
                                         <button id="btnRegistroAlumno" class="btn btn-primary" type="sumbit">Registrar Alumno</button>
+                                        
                         </form>
         </main>
         <footer>

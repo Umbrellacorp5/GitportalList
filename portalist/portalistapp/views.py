@@ -1,3 +1,4 @@
+from atexit import register
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
@@ -20,4 +21,16 @@ def ingresar_administrador(request):
 
     context = {'ingresarAdmin': }
 """
+""""
+def registroAlumno(request):
+    register = registroAlumno.objects.all()
+    form = registroAlumnoForm()
+    if request.method == 'Post':
+        form = registroAlumnoForm(request.Post)
+        if form.is_valid():
+            form.save()
+        return redirect('/')
 
+    context = {'ingresarAlumno': }
+
+"""
