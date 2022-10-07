@@ -672,18 +672,6 @@ margin-left: 5%;
     height: 130px; ;
   }
 
-  #contactUsA{
-    text-decoration: none;
-      padding: 4px 20px;
-      font-size: 20px;
-      color: #ffffff;
-      background:#000000;
-      border-radius: 6px;
-      border: 2px solid #000;
-      text-align: center;
-      margin-left: 90%;
-  }
-
   #copyR{
     margin-left: 2%;
   }
@@ -698,14 +686,28 @@ margin-left: 5%;
 
 #headerInAdmin{
   background-color:#000;
-  height: 120px; ;
+  height: 130px; ;
 }
 
 #tituloInAdmin{
+  display: inline;
   margin-left: 2% ;
   color: white;
+  text-decoration-color: white;
   width: 100px;
   height: 100px;
+  margin-top: 0%;
+}
+
+#formIA{
+  position: relative;
+  background-color: white;
+  max-width: 1500px;
+  max-height: 1500px;
+  width: 700px;
+  height: 370px;
+  margin-left: 0%;
+  margin-right: 70%;
 }
 
 #mainInAdmin{
@@ -717,10 +719,17 @@ margin-left: 2%;
   padding: 4px 20px;
   font-size: 20px;
   color: #ffffff;
-  background:#000000;
-  border-radius: 6px;
-  border: 2px solid #000;
+  background:#000000bd;
+  border-radius: 1px;
+  border: 2px solid rgba(0, 0, 0, 0);
 
+}
+
+#plImgIA{
+  display: inline;
+  height: 95%;
+  margin-top: 0%;
+  height: 95%;
 }
 
 

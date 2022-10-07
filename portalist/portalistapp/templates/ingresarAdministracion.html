@@ -16,27 +16,27 @@
 
 
 <body id="bodyIadmin">
-    <header id="headerInAdmin">
-      <h1 id="tituloInAdmin">Portal List</h1>
-        <a href="index.html">
+    <header id="headerInAdmin"> 
+        <h1 id="tituloInAdmin">Portal List</h1>
+        <a href="index.html"><img id= "plImgIA" src="static_in_env/img/Logo14.png" alt="Portal List"></a>
+   
             <h1 id="portalList" text-align="center">Portal List</h1>
         </a>
-        <a href="/portalList/index.html"><img id= "plImg" src="static_in_env/img/logo12.png" alt="Portal List" width="500" height="500"></a>
     </header> 
-  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    
+  <br> <br>
     <main id="mainInAdmin">
-        <h1 id= "iniciarSesiónTitle" >Iniciar Sesión</h1>
-        <h2 id= "ingresarAdminTitle">Ingrese su usuario administrador </h2>
-        <form action="admin.html" method="POST">
+        <form id="formIA" action="admin.html" method="POST">
+            <h1 id= "iniciarSesiónTitle" >Iniciar Sesión</h1>
+            <br> <br>
+            <h2 id= "ingresarAdminTitle">Ingrese su usuario administrador </h2>
             <!--action=verifica los datos y redirecciona-->
-            <label>Email</label>
-            <input id="emailAdmin" type="email" name="cajaEmail" required><br><br>
-            <label>Contraseña</label>
-            <input id="contraAdmin" type="password" name="cajaContraseña"><br><br>
+            <input id="emailAdmin" type="email" name="cajaEmail" required placeholder="Email"><br><br>
+            <input id="contraAdmin" type="password" name="cajaContraseña" placeholder="Contraseña"><br><br>
             <a href="admin.html" id="btnIniciarSesiónAdmin">Iniciar Sesión</a>
         </form>
     </main>
-    <br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br>
     <footer>
         <p id="contactUs" text-align="center"> <a href="contactUs.html">Contáctanos</a></p> <br><br>
         <h5 id="copyR">© 2022 Portal List, Inc.</h5>
