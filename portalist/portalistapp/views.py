@@ -1,3 +1,4 @@
+from atexit import register
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
@@ -23,7 +24,17 @@ def ingresar_administrador(request):
     context = {'ingresarAdmin': }
 
 """
+""""
+def registroAlumno(request):
+    register = registroAlumno.objects.all()
+    form = registroAlumnoForm()
+    if request.method == 'Post':
+        form = registroAlumnoForm(request.Post)
+        if form.is_valid():
+            form.save()
+        return redirect('/')
 
+<<<<<<< HEAD
 def asistencia(request):
 
     return render(request, "asistencia.html")
@@ -78,3 +89,8 @@ def seleccionarRegistro(request):
 def seleccionLista(request):
 
     return render(request, "seleccionLista.html")
+=======
+    context = {'ingresarAlumno': }
+
+"""
+>>>>>>> 7ea4461512629e3131273277156747d13f09cdb8
